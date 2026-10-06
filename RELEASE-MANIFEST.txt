@@ -1,0 +1,57 @@
+TRADE AVATA CHART V8.0.4 RELEASE MANIFEST
+
+Files excluding this manifest: 44
+SHA-256:
+1143fed94af0a85ddcdd4b266c202332ac2ad454a005cba30e2cf21c70a4654b  ./.github/workflows/deploy.yml
+8f5187aa8209f0ae56bc38ebee4c6d217c868d04c3983dcc5b983af411ebcaa9  ./CHANGELOG-v8.md
+97d7480505c330b4f51b1dcea0c459580cfea388721a1ef6b6699928b6f11903  ./README.md
+2ab05aacc9af80433db6b0c06d40229ed1c58010a5b0ef61ab0d822cead94b04  ./assets/styles.css
+4eb1f1268f69cc1e901d8697f1bef1e725d29f04bbb4f7ce28fe52afd1965abb  ./docs/ADS-AI-ALERTS.md
+ae47f76717ad7d5e20131413fe2a6b53ba023d9598c981db3ba975ccf68f7446  ./docs/MASTER-UPGRADE-SPEC.md
+81a9e0391f63a71bfdfc787ea36c8f2dec29d56a26e1aedd2cd945aa81b3e5a8  ./docs/PLATFORM-INFRASTRUCTURE.md
+b3b674787dfdc09d100351dc3f96c4987371a11c85199fccd164a183b213eb97  ./docs/RENKO-NOTES.md
+91eaa2bbf9b51b3fb2fcd120826113ac34bb7216071deb755ade25cc65048be2  ./docs/SECURITY-INDICATORS.md
+0afaef26298e1948c4e839b1cf9e2e06a69f686ca3ce53d256d7b78fa7f13a27  ./docs/SHARING.md
+8cedb610aef585383884a870548cdc2a7d2a4b0fa6988c1bce0247e94ce8f7a6  ./docs/UPGRADE-CHECKLIST.md
+5ba24df2ac81c3c6b88bdd2dd541136fc96016b38c8db2fd8e8b8bf9dac2320a  ./index.html
+c6df6dad543408da95dca0b90140606bd50e5f72a3a968a5a6b49df30b9f55f4  ./manifest.webmanifest
+9db6efddba9e5aa85dd13332e3b585b011286ab7d9fbce1f847a8e51d0c68d10  ./package.json
+599d79eadd2ded3f5b35cd9b4a74148188fe715ccb6e36cc5ede5e25edcc238c  ./public/brand/trade-avata-logo.svg
+e782c55b26c8a33c4305ff19a211527bb1b2ae43016373ad47c853357d9e0180  ./scripts/verify.mjs
+fe0406643702da8641d9bc8ef7cbf2fc8d1fff2a4330db1313e7ad213cac0617  ./server/.env.example
+6d03b2db469dcb3024d09319bf3279b3b06a6418a2e7be2135c3da30a16c40f6  ./server/app.py
+736b97118e6c6ad051bf46876d285f147aec1eb322cec5f455a0096cf1ecb6d5  ./server/requirements.txt
+2bfed8301d90c8c7796cdf5df6dc1238b3f81f2267c945c7dbf6bb6b752c3906  ./src/ai-client.js
+c2e66d8f05bdb0d9b65dcb820f866b1a6dcb6a263f75e9336a03765d95b1009c  ./src/alert-client.js
+071470c1c641bc8f359d8cad0d4d5abb85daebeec27d15b95283a0dd005ba053  ./src/analytics.js
+c05b61c16390035956e3193a730e16da9c81582d8b1de01df701ebca84953636  ./src/app.js
+0088ba76017b065cc724d568b7641916fbd43a775c48ac6aa468d296451b182b  ./src/chart-pane.js
+928fc5fc24de5d3727de714170414335e7ac8ed5e003013032ecf247ef3a54bd  ./src/data.js
+16e99452ae168f2e88e5d3952ebaf4aa40086ed3abdfc085856194d622e4bf6d  ./src/drawings.js
+ab68f822bec4524f7401c9d1e5869b252d2d09a6f828b15b5e713f1e413729b6  ./src/indicator-security.js
+07080935fed98fcc5943229afcdbd59d9089bef14ed2340459b9bac197de64d0  ./src/indicators.js
+30da019f61e1338cc9875834b7de59ae6a647e32fdcc4e4441bef8ec0c7cc504  ./src/market-intelligence.js
+a24c3726601871f64d4c7a703cd4e5b2eedfdbdc2ca420acd33041b1fcd4985b  ./src/replay-client.js
+23decac564c0d00cf0af42da53352dae4d4f0ed6a27ef94129ac0237525dd6c8  ./src/share.js
+f39b77b98e9e6913d69e8994dcb33a2e2d1612acc7b8a7f621066c50b7c68f49  ./src/state.js
+efe113516772964d70ae677a298e2948eb121e602fe721083e1b6c7a31d278fa  ./src/utils.js
+3202d1324c7efdd2f9ae22287523cedfb1dbf9c568e7fd7d4bf695dacbc11743  ./src/workspace-sync.js
+a6b71424a83fd6b6c8124c71c5be3f2fb627b23acd599b59ce23d00cd0204bf8  ./sw.js
+4f90ee9e342abc4f62f454e8d52cfba9dc8755c1b8749ef1157b9eeb7b7e05dd  ./tests/data.test.js
+19640a84cb7d01eee16a65fbdc190ddce28ba876680acf7c8304514586eaa5fd  ./tests/indicators.test.js
+a8a95fe734baf83cb443f6515d01747297f13d398f70d2bd427a903b7456f9f0  ./tests/market-intelligence.test.js
+f55c442264214d61a4ecfeac83e85a7d9a503f688537753630a1067a7dd50b2c  ./tests/periods.test.js
+8b354c47087f21f5bc2a415c6738acd9d08ae9e68d804bb83a9c024c21756297  ./tests/renko.test.js
+a93433dc5b10c34d15940b6a46a1f991822b7ce209c0ee7dd8873eba8d93ba97  ./tests/security.test.js
+680f8b6bb43bf648aa3e523da315d83e81c59dc55fe520c7f4812cc0fa81d60a  ./tests/share.test.js
+06a1546d3011e23f49787300c8ab83478c0e1ba08160fe3375f5d591cf8112a1  ./tests/template.test.js
+7fdd76a4a3c8288452d4c44a209bb3ef92001c5b81b90e2924c6ca1f868787d2  ./tests/ui-audit.test.js
+
+V8.0.4 ADDITION
+- Market Intelligence Center: Overview, Heat Map, Screener, Sentiment, AI Alerts
+- Separate AI Insights and Indicator AI experiences
+- Public automated outputs; owner/admin/entitled conversational AI
+- Microphone dictation for permitted AI chat
+- Play/Listen read-aloud for summaries and AI replies
+- Secure AI backend seams; no API keys in GitHub Pages
+- Existing V8 chart, candles, drawings, replay, sharing and indicator-pane behavior preserved
