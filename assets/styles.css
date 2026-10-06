@@ -70,6 +70,10 @@ html[data-platform-theme="light"]{--bg:#e9eef3;--bg2:#f4f7f9;--panel:#ffffff;--p
    Permanent chart branding
    ========================================= */
 
+/* =========================================
+   TRADE AVATA CHART LOGO — CACHE REFRESH
+   ========================================= */
+
 .chart-pane::after {
   content: "";
   position: absolute;
@@ -80,7 +84,7 @@ html[data-platform-theme="light"]{--bg:#e9eef3;--bg2:#f4f7f9;--panel:#ffffff;--p
   width: 30px;
   height: 30px;
 
-  background-image: url("../public/brand/trade-avata-logo.svg");
+  background-image: url("../public/brand/trade-avata-logo.svg?v=tradeavata-logo-2") !important;
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -93,7 +97,6 @@ html[data-platform-theme="light"]{--bg:#e9eef3;--bg2:#f4f7f9;--panel:#ffffff;--p
   z-index: 19;
 }
 
-/* Slightly smaller logo on phones */
 @media (max-width: 780px) {
   .chart-pane::after {
     left: 9px;
