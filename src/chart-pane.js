@@ -81,7 +81,7 @@ export class ChartPane{
       autoSize:true,
       layout:{
         background:{type:'solid',color:s.background},textColor:s.textColor,
-        fontSize:window.innerWidth<=780?9:11,fontFamily:'Inter,system-ui,sans-serif',attributionLogo:true,
+        fontSize:window.innerWidth<=780?9:11,fontFamily:'Inter,system-ui,sans-serif',attributionLogo:false,
         panes:{separatorColor:'#1b3348',separatorHoverColor:'#2b5574',enableResize:true}
       },
       grid:{vertLines:{visible:s.gridV,color:s.gridColor},horzLines:{visible:s.gridH,color:s.gridColor}},
